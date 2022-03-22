@@ -1,0 +1,44 @@
+body{
+    padding-top: 100px;
+}
+
+.container{
+    background-color:#12181d;
+    color: rgb(255, 255, 255);
+    font:bold ;
+    width: 370px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+
+input[type="email"],
+input[type="password"] {
+    background: #252725;
+    color:white;
+    border: 1px solid #00CED1;
+    border-radius: 10px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+   outline: none;
+   border: none;
+   background: #252725;
+   color: white;
+}
+
+.btn{
+    background-color:#00CED1;
+    color:white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #252725;
+    color: rgb(255, 255, 255);
+    border: 1px solid #00CED1;
+    border-radius: 5px;
+}
+    
